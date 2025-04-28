@@ -1,15 +1,8 @@
-import { Button } from "@mui/material"
+import AppRouter from "./routes/AppRouter"
 
 function App() {
 
-  return (
-    <>
-      <div>
-        <Button className="btn btn-primary" variant="contained">Hello world</Button>
-      </div>
-      
-    </>
-  )
+  return <AppRouter />
 }
 
 export default App
