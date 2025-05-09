@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from "@mui/material"
 import { useNavigate } from "react-router-dom"
 
-export default function DashboardPage() {
+export default function DashboardHome() {
   const navigate = useNavigate()
 
   return (
